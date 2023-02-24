@@ -1,0 +1,1845 @@
+[
+  {
+    "type": "CODEBLOCK",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "COLORNAME",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "NUMBER",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "ORDINAL",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "STRING",
+          "named": true
+        },
+        {
+          "type": "colorExpr",
+          "named": true
+        },
+        {
+          "type": "expr",
+          "named": true
+        },
+        {
+          "type": "locationAttribute",
+          "named": true
+        },
+        {
+          "type": "macroCall",
+          "named": true
+        },
+        {
+          "type": "newPropertyValue",
+          "named": true
+        },
+        {
+          "type": "numericProperty",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "pathAttribute",
+          "named": true
+        },
+        {
+          "type": "textAttribute",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "colorExpr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comments",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "compassAngle",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "compassDirection",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "direction",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "distance",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "dotEdgename",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "dotProperty",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "edgename",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "COLORNAME",
+          "named": true
+        },
+        {
+          "type": "NUMBER",
+          "named": true
+        },
+        {
+          "type": "VARIABLE",
+          "named": true
+        },
+        {
+          "type": "dotProperty",
+          "named": true
+        },
+        {
+          "type": "expr",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        },
+        {
+          "type": "place",
+          "named": true
+        },
+        {
+          "type": "position",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "fraction",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineLength",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "locationAttribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "dotEdgename",
+          "named": true
+        },
+        {
+          "type": "edgename",
+          "named": true
+        },
+        {
+          "type": "position",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "macroCall",
+    "named": true,
+    "fields": {
+      "macroName": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "VARIABLE",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "newPropertyValue",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "nthObject",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "ORDINAL",
+          "named": true
+        },
+        {
+          "type": "objectClass",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "numericProperty",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "object",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "LABEL",
+          "named": true
+        },
+        {
+          "type": "nthObject",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "objectClass",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "objectDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "STRING",
+          "named": true
+        },
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "objectClass",
+          "named": true
+        },
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "textAttribute",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "pathAttribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "compassAngle",
+          "named": true
+        },
+        {
+          "type": "compassDirection",
+          "named": true
+        },
+        {
+          "type": "direction",
+          "named": true
+        },
+        {
+          "type": "lineLength",
+          "named": true
+        },
+        {
+          "type": "position",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "place",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "ORDINAL",
+          "named": true
+        },
+        {
+          "type": "dotEdgename",
+          "named": true
+        },
+        {
+          "type": "edgename",
+          "named": true
+        },
+        {
+          "type": "object",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "position",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "distance",
+          "named": true
+        },
+        {
+          "type": "expr",
+          "named": true
+        },
+        {
+          "type": "fraction",
+          "named": true
+        },
+        {
+          "type": "place",
+          "named": true
+        },
+        {
+          "type": "position",
+          "named": true
+        },
+        {
+          "type": "whichWayFrom",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "printArgument",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "STRING",
+          "named": true
+        },
+        {
+          "type": "expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "statement",
+    "named": true,
+    "fields": {
+      "macroDefinition": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "CODEBLOCK",
+            "named": true
+          },
+          {
+            "type": "define",
+            "named": false
+          }
+        ]
+      },
+      "macroName": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "VARIABLE",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "LABEL",
+          "named": true
+        },
+        {
+          "type": "VARIABLE",
+          "named": true
+        },
+        {
+          "type": "direction",
+          "named": true
+        },
+        {
+          "type": "expr",
+          "named": true
+        },
+        {
+          "type": "macroCall",
+          "named": true
+        },
+        {
+          "type": "objectDefinition",
+          "named": true
+        },
+        {
+          "type": "place",
+          "named": true
+        },
+        {
+          "type": "position",
+          "named": true
+        },
+        {
+          "type": "printArgument",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "textAttribute",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "whichWayFrom",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "compassAngle",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "*=",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": "+=",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "-=",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": ".bot",
+    "named": false
+  },
+  {
+    "type": ".bottom",
+    "named": false
+  },
+  {
+    "type": ".c",
+    "named": false
+  },
+  {
+    "type": ".center",
+    "named": false
+  },
+  {
+    "type": ".color",
+    "named": false
+  },
+  {
+    "type": ".dashed",
+    "named": false
+  },
+  {
+    "type": ".diameter",
+    "named": false
+  },
+  {
+    "type": ".dotted",
+    "named": false
+  },
+  {
+    "type": ".e",
+    "named": false
+  },
+  {
+    "type": ".east",
+    "named": false
+  },
+  {
+    "type": ".end",
+    "named": false
+  },
+  {
+    "type": ".fill",
+    "named": false
+  },
+  {
+    "type": ".height",
+    "named": false
+  },
+  {
+    "type": ".ht",
+    "named": false
+  },
+  {
+    "type": ".left",
+    "named": false
+  },
+  {
+    "type": ".n",
+    "named": false
+  },
+  {
+    "type": ".ne",
+    "named": false
+  },
+  {
+    "type": ".north",
+    "named": false
+  },
+  {
+    "type": ".nw",
+    "named": false
+  },
+  {
+    "type": ".rad",
+    "named": false
+  },
+  {
+    "type": ".radius",
+    "named": false
+  },
+  {
+    "type": ".right",
+    "named": false
+  },
+  {
+    "type": ".s",
+    "named": false
+  },
+  {
+    "type": ".se",
+    "named": false
+  },
+  {
+    "type": ".south",
+    "named": false
+  },
+  {
+    "type": ".start",
+    "named": false
+  },
+  {
+    "type": ".sw",
+    "named": false
+  },
+  {
+    "type": ".t",
+    "named": false
+  },
+  {
+    "type": ".thickness",
+    "named": false
+  },
+  {
+    "type": ".top",
+    "named": false
+  },
+  {
+    "type": ".w",
+    "named": false
+  },
+  {
+    "type": ".west",
+    "named": false
+  },
+  {
+    "type": ".wid",
+    "named": false
+  },
+  {
+    "type": ".width",
+    "named": false
+  },
+  {
+    "type": ".x",
+    "named": false
+  },
+  {
+    "type": ".y",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": "/=",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<-",
+    "named": false
+  },
+  {
+    "type": "<->",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": "LABEL",
+    "named": true
+  },
+  {
+    "type": "STRING",
+    "named": true
+  },
+  {
+    "type": "VARIABLE",
+    "named": true
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "[]",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "above",
+    "named": false
+  },
+  {
+    "type": "abs",
+    "named": false
+  },
+  {
+    "type": "aliceblue",
+    "named": false
+  },
+  {
+    "type": "aligned",
+    "named": false
+  },
+  {
+    "type": "and",
+    "named": false
+  },
+  {
+    "type": "antiquewhite",
+    "named": false
+  },
+  {
+    "type": "aqua",
+    "named": false
+  },
+  {
+    "type": "aquamarine",
+    "named": false
+  },
+  {
+    "type": "arc",
+    "named": false
+  },
+  {
+    "type": "arrow",
+    "named": false
+  },
+  {
+    "type": "assert",
+    "named": false
+  },
+  {
+    "type": "at",
+    "named": false
+  },
+  {
+    "type": "azure",
+    "named": false
+  },
+  {
+    "type": "behind",
+    "named": false
+  },
+  {
+    "type": "beige",
+    "named": false
+  },
+  {
+    "type": "below",
+    "named": false
+  },
+  {
+    "type": "between",
+    "named": false
+  },
+  {
+    "type": "big",
+    "named": false
+  },
+  {
+    "type": "bisque",
+    "named": false
+  },
+  {
+    "type": "black",
+    "named": false
+  },
+  {
+    "type": "blanchedalmond",
+    "named": false
+  },
+  {
+    "type": "blue",
+    "named": false
+  },
+  {
+    "type": "blueviolet",
+    "named": false
+  },
+  {
+    "type": "bold",
+    "named": false
+  },
+  {
+    "type": "bot",
+    "named": false
+  },
+  {
+    "type": "bottom",
+    "named": false
+  },
+  {
+    "type": "box",
+    "named": false
+  },
+  {
+    "type": "brown",
+    "named": false
+  },
+  {
+    "type": "burlywood",
+    "named": false
+  },
+  {
+    "type": "c",
+    "named": false
+  },
+  {
+    "type": "cadetblue",
+    "named": false
+  },
+  {
+    "type": "ccw",
+    "named": false
+  },
+  {
+    "type": "center",
+    "named": false
+  },
+  {
+    "type": "chartreuse",
+    "named": false
+  },
+  {
+    "type": "chocolate",
+    "named": false
+  },
+  {
+    "type": "chop",
+    "named": false
+  },
+  {
+    "type": "circle",
+    "named": false
+  },
+  {
+    "type": "close",
+    "named": false
+  },
+  {
+    "type": "color",
+    "named": false
+  },
+  {
+    "type": "coral",
+    "named": false
+  },
+  {
+    "type": "cornflowerblue",
+    "named": false
+  },
+  {
+    "type": "cornsilk",
+    "named": false
+  },
+  {
+    "type": "cos",
+    "named": false
+  },
+  {
+    "type": "crimson",
+    "named": false
+  },
+  {
+    "type": "cw",
+    "named": false
+  },
+  {
+    "type": "cyan",
+    "named": false
+  },
+  {
+    "type": "cylinder",
+    "named": false
+  },
+  {
+    "type": "darkblue",
+    "named": false
+  },
+  {
+    "type": "darkcyan",
+    "named": false
+  },
+  {
+    "type": "darkgoldenrod",
+    "named": false
+  },
+  {
+    "type": "darkgray",
+    "named": false
+  },
+  {
+    "type": "darkgreen",
+    "named": false
+  },
+  {
+    "type": "darkgrey",
+    "named": false
+  },
+  {
+    "type": "darkkhaki",
+    "named": false
+  },
+  {
+    "type": "darkmagenta",
+    "named": false
+  },
+  {
+    "type": "darkolivegreen",
+    "named": false
+  },
+  {
+    "type": "darkorange",
+    "named": false
+  },
+  {
+    "type": "darkorchid",
+    "named": false
+  },
+  {
+    "type": "darkred",
+    "named": false
+  },
+  {
+    "type": "darksalmon",
+    "named": false
+  },
+  {
+    "type": "darkseagreen",
+    "named": false
+  },
+  {
+    "type": "darkslateblue",
+    "named": false
+  },
+  {
+    "type": "darkslategray",
+    "named": false
+  },
+  {
+    "type": "darkslategrey",
+    "named": false
+  },
+  {
+    "type": "darkturquoise",
+    "named": false
+  },
+  {
+    "type": "darkviolet",
+    "named": false
+  },
+  {
+    "type": "dashed",
+    "named": false
+  },
+  {
+    "type": "deeppink",
+    "named": false
+  },
+  {
+    "type": "deepskyblue",
+    "named": false
+  },
+  {
+    "type": "define",
+    "named": false
+  },
+  {
+    "type": "diameter",
+    "named": false
+  },
+  {
+    "type": "dimgray",
+    "named": false
+  },
+  {
+    "type": "dimgrey",
+    "named": false
+  },
+  {
+    "type": "dist",
+    "named": false
+  },
+  {
+    "type": "dodgerblue",
+    "named": false
+  },
+  {
+    "type": "dot",
+    "named": false
+  },
+  {
+    "type": "dotted",
+    "named": false
+  },
+  {
+    "type": "down",
+    "named": false
+  },
+  {
+    "type": "e",
+    "named": false
+  },
+  {
+    "type": "east",
+    "named": false
+  },
+  {
+    "type": "ellipse",
+    "named": false
+  },
+  {
+    "type": "end",
+    "named": false
+  },
+  {
+    "type": "even",
+    "named": false
+  },
+  {
+    "type": "file",
+    "named": false
+  },
+  {
+    "type": "fill",
+    "named": false
+  },
+  {
+    "type": "firebrick",
+    "named": false
+  },
+  {
+    "type": "first",
+    "named": false
+  },
+  {
+    "type": "fit",
+    "named": false
+  },
+  {
+    "type": "floralwhite",
+    "named": false
+  },
+  {
+    "type": "forestgreen",
+    "named": false
+  },
+  {
+    "type": "from",
+    "named": false
+  },
+  {
+    "type": "fuchsia",
+    "named": false
+  },
+  {
+    "type": "gainsboro",
+    "named": false
+  },
+  {
+    "type": "ghostwhite",
+    "named": false
+  },
+  {
+    "type": "go",
+    "named": false
+  },
+  {
+    "type": "gold",
+    "named": false
+  },
+  {
+    "type": "goldenrod",
+    "named": false
+  },
+  {
+    "type": "gray",
+    "named": false
+  },
+  {
+    "type": "green",
+    "named": false
+  },
+  {
+    "type": "greenyellow",
+    "named": false
+  },
+  {
+    "type": "grey",
+    "named": false
+  },
+  {
+    "type": "heading",
+    "named": false
+  },
+  {
+    "type": "height",
+    "named": false
+  },
+  {
+    "type": "honeydew",
+    "named": false
+  },
+  {
+    "type": "hotpink",
+    "named": false
+  },
+  {
+    "type": "ht",
+    "named": false
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "indianred",
+    "named": false
+  },
+  {
+    "type": "indigo",
+    "named": false
+  },
+  {
+    "type": "int",
+    "named": false
+  },
+  {
+    "type": "invis",
+    "named": false
+  },
+  {
+    "type": "invisible",
+    "named": false
+  },
+  {
+    "type": "italic",
+    "named": false
+  },
+  {
+    "type": "ivory",
+    "named": false
+  },
+  {
+    "type": "khaki",
+    "named": false
+  },
+  {
+    "type": "last",
+    "named": false
+  },
+  {
+    "type": "lavender",
+    "named": false
+  },
+  {
+    "type": "lavenderblush",
+    "named": false
+  },
+  {
+    "type": "lawngreen",
+    "named": false
+  },
+  {
+    "type": "left",
+    "named": false
+  },
+  {
+    "type": "lemonchiffon",
+    "named": false
+  },
+  {
+    "type": "lightblue",
+    "named": false
+  },
+  {
+    "type": "lightcoral",
+    "named": false
+  },
+  {
+    "type": "lightcyan",
+    "named": false
+  },
+  {
+    "type": "lightgoldenrodyellow",
+    "named": false
+  },
+  {
+    "type": "lightgray",
+    "named": false
+  },
+  {
+    "type": "lightgreen",
+    "named": false
+  },
+  {
+    "type": "lightgrey",
+    "named": false
+  },
+  {
+    "type": "lightpink",
+    "named": false
+  },
+  {
+    "type": "lightsalmon",
+    "named": false
+  },
+  {
+    "type": "lightseagreen",
+    "named": false
+  },
+  {
+    "type": "lightskyblue",
+    "named": false
+  },
+  {
+    "type": "lightslategray",
+    "named": false
+  },
+  {
+    "type": "lightslategrey",
+    "named": false
+  },
+  {
+    "type": "lightsteelblue",
+    "named": false
+  },
+  {
+    "type": "lightyellow",
+    "named": false
+  },
+  {
+    "type": "lime",
+    "named": false
+  },
+  {
+    "type": "limegreen",
+    "named": false
+  },
+  {
+    "type": "line",
+    "named": false
+  },
+  {
+    "type": "linen",
+    "named": false
+  },
+  {
+    "type": "ljust",
+    "named": false
+  },
+  {
+    "type": "magenta",
+    "named": false
+  },
+  {
+    "type": "maroon",
+    "named": false
+  },
+  {
+    "type": "max",
+    "named": false
+  },
+  {
+    "type": "mediumaquamarine",
+    "named": false
+  },
+  {
+    "type": "mediumblue",
+    "named": false
+  },
+  {
+    "type": "mediumorchid",
+    "named": false
+  },
+  {
+    "type": "mediumpurple",
+    "named": false
+  },
+  {
+    "type": "mediumseagreen",
+    "named": false
+  },
+  {
+    "type": "mediumslateblue",
+    "named": false
+  },
+  {
+    "type": "mediumspringgreen",
+    "named": false
+  },
+  {
+    "type": "mediumturquoise",
+    "named": false
+  },
+  {
+    "type": "mediumvioletred",
+    "named": false
+  },
+  {
+    "type": "midnightblue",
+    "named": false
+  },
+  {
+    "type": "min",
+    "named": false
+  },
+  {
+    "type": "mintcream",
+    "named": false
+  },
+  {
+    "type": "mistyrose",
+    "named": false
+  },
+  {
+    "type": "moccasin",
+    "named": false
+  },
+  {
+    "type": "move",
+    "named": false
+  },
+  {
+    "type": "n",
+    "named": false
+  },
+  {
+    "type": "navajowhite",
+    "named": false
+  },
+  {
+    "type": "navy",
+    "named": false
+  },
+  {
+    "type": "ne",
+    "named": false
+  },
+  {
+    "type": "none",
+    "named": false
+  },
+  {
+    "type": "north",
+    "named": false
+  },
+  {
+    "type": "nw",
+    "named": false
+  },
+  {
+    "type": "of",
+    "named": false
+  },
+  {
+    "type": "off",
+    "named": false
+  },
+  {
+    "type": "oldlace",
+    "named": false
+  },
+  {
+    "type": "olive",
+    "named": false
+  },
+  {
+    "type": "olivedrab",
+    "named": false
+  },
+  {
+    "type": "orange",
+    "named": false
+  },
+  {
+    "type": "orangered",
+    "named": false
+  },
+  {
+    "type": "orchid",
+    "named": false
+  },
+  {
+    "type": "oval",
+    "named": false
+  },
+  {
+    "type": "palegoldenrod",
+    "named": false
+  },
+  {
+    "type": "palegreen",
+    "named": false
+  },
+  {
+    "type": "paleturquoise",
+    "named": false
+  },
+  {
+    "type": "palevioletred",
+    "named": false
+  },
+  {
+    "type": "papayawhip",
+    "named": false
+  },
+  {
+    "type": "peachpuff",
+    "named": false
+  },
+  {
+    "type": "peru",
+    "named": false
+  },
+  {
+    "type": "pink",
+    "named": false
+  },
+  {
+    "type": "plum",
+    "named": false
+  },
+  {
+    "type": "powderblue",
+    "named": false
+  },
+  {
+    "type": "previous",
+    "named": false
+  },
+  {
+    "type": "print",
+    "named": false
+  },
+  {
+    "type": "purple",
+    "named": false
+  },
+  {
+    "type": "rad",
+    "named": false
+  },
+  {
+    "type": "radius",
+    "named": false
+  },
+  {
+    "type": "rebeccapurple",
+    "named": false
+  },
+  {
+    "type": "red",
+    "named": false
+  },
+  {
+    "type": "right",
+    "named": false
+  },
+  {
+    "type": "rjust",
+    "named": false
+  },
+  {
+    "type": "rosybrown",
+    "named": false
+  },
+  {
+    "type": "royalblue",
+    "named": false
+  },
+  {
+    "type": "s",
+    "named": false
+  },
+  {
+    "type": "saddlebrown",
+    "named": false
+  },
+  {
+    "type": "salmon",
+    "named": false
+  },
+  {
+    "type": "same",
+    "named": false
+  },
+  {
+    "type": "same as",
+    "named": false
+  },
+  {
+    "type": "sandybrown",
+    "named": false
+  },
+  {
+    "type": "se",
+    "named": false
+  },
+  {
+    "type": "seagreen",
+    "named": false
+  },
+  {
+    "type": "seashell",
+    "named": false
+  },
+  {
+    "type": "sienna",
+    "named": false
+  },
+  {
+    "type": "silver",
+    "named": false
+  },
+  {
+    "type": "sin",
+    "named": false
+  },
+  {
+    "type": "skyblue",
+    "named": false
+  },
+  {
+    "type": "slateblue",
+    "named": false
+  },
+  {
+    "type": "slategray",
+    "named": false
+  },
+  {
+    "type": "slategrey",
+    "named": false
+  },
+  {
+    "type": "small",
+    "named": false
+  },
+  {
+    "type": "snow",
+    "named": false
+  },
+  {
+    "type": "solid",
+    "named": false
+  },
+  {
+    "type": "south",
+    "named": false
+  },
+  {
+    "type": "spline",
+    "named": false
+  },
+  {
+    "type": "springgreen",
+    "named": false
+  },
+  {
+    "type": "sqrt",
+    "named": false
+  },
+  {
+    "type": "start",
+    "named": false
+  },
+  {
+    "type": "steelblue",
+    "named": false
+  },
+  {
+    "type": "sw",
+    "named": false
+  },
+  {
+    "type": "t",
+    "named": false
+  },
+  {
+    "type": "tan",
+    "named": false
+  },
+  {
+    "type": "teal",
+    "named": false
+  },
+  {
+    "type": "text",
+    "named": false
+  },
+  {
+    "type": "the",
+    "named": false
+  },
+  {
+    "type": "then",
+    "named": false
+  },
+  {
+    "type": "thick",
+    "named": false
+  },
+  {
+    "type": "thickness",
+    "named": false
+  },
+  {
+    "type": "thin",
+    "named": false
+  },
+  {
+    "type": "thistle",
+    "named": false
+  },
+  {
+    "type": "to",
+    "named": false
+  },
+  {
+    "type": "tomato",
+    "named": false
+  },
+  {
+    "type": "top",
+    "named": false
+  },
+  {
+    "type": "turquoise",
+    "named": false
+  },
+  {
+    "type": "until",
+    "named": false
+  },
+  {
+    "type": "up",
+    "named": false
+  },
+  {
+    "type": "vertex",
+    "named": false
+  },
+  {
+    "type": "violet",
+    "named": false
+  },
+  {
+    "type": "w",
+    "named": false
+  },
+  {
+    "type": "way",
+    "named": false
+  },
+  {
+    "type": "west",
+    "named": false
+  },
+  {
+    "type": "wheat",
+    "named": false
+  },
+  {
+    "type": "white",
+    "named": false
+  },
+  {
+    "type": "whitesmoke",
+    "named": false
+  },
+  {
+    "type": "wid",
+    "named": false
+  },
+  {
+    "type": "width",
+    "named": false
+  },
+  {
+    "type": "with",
+    "named": false
+  },
+  {
+    "type": "yellow",
+    "named": false
+  },
+  {
+    "type": "yellowgreen",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]
