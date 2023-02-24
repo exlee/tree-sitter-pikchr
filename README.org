@@ -6,7 +6,7 @@ It's naïve implementation based on the [[https://pikchr.org/home/doc/trunk/doc/
 
 ** About Pikchr
 More can be read at Pikchr's website, but in the nutshell it's diagramming language:
-#+begin_src pikchr
+#+begin_src pikchr :exports code
   # Basic definitions
   color=0x111111
   fill=white
@@ -54,7 +54,8 @@ More can be read at Pikchr's website, but in the nutshell it's diagramming langu
   line from (PLUS.e,$yPos(2/3,QM)) then right 6pt \
     then down 7pt then to QM.w
 #+end_src
-[[file:./example.png][Example]]
+
+![[file:example.png][example.png]]
 ** Extra features
 
 Since macro per se isn't part of the language spec there is 1 extra =macroCall= expression definition, allowing for macro calls.
@@ -76,5 +77,5 @@ Planned extension features:
 - Page break token
 - Import statement
 - Explicit diagram narrowing
-- Standard hex color codes (#aa00ee, etc.)
+- Standard hex color codes (=#aa00ee=, etc.)
 - Config header support
